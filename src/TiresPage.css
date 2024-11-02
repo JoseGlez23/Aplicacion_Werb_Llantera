@@ -1,0 +1,19 @@
+/* src/TiresPage.css */
+
+.tires-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px; /* Aumenta el espacio entre las tarjetas */
+    width: 100%;
+    margin-top: 20px;
+    justify-items: center;
+  }
+  
+  .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Cambia el color según el diseño */
+  }
+  
